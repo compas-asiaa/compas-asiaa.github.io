@@ -1,0 +1,110 @@
+@import url(../../css/complex/classy-vav.css);
+
+/* :: 4.0 Header Area CSS */
+.header_style {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+
+  .header_style .main-menu {
+  position: fixed;
+  width: 100%;
+  background-image: linear-gradient(to bottom right, #363636, #363636);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.8); }
+  .header_style .main-menu .classy-nav-container {
+    background-image: linear-gradient(to bottom right, #363636, #363636); }
+  .header_style .main-menu .classy-navbar {
+    -webkit-transition-duration: 300ms;
+    transition-duration: 300ms;
+    background-image: linear-gradient(to bottom right, #363636, #363636);
+    height: 90px;
+    padding: 0; }
+  .header_style .main-menu .classy-navbar .nav-brand {
+      max-width: 250px; } }
+    @media only screen and (max-width: 767px) {
+      .header_style .main-menu .classy-navbar {
+        height: 70px; } }
+    @media only screen and (min-width: 992px) and (max-width: 1199px) {
+      .header_style .main-menu .classy-navbar .nav-brand {
+        max-width: 140px; } }
+    @media only screen and (max-width: 767px) {
+      .header_style .main-menu .classy-navbar .nav-brand {
+        max-width: 140px; } }
+    .header_style .main-menu .classy-navbar .classynav ul li a {
+      text-transform: capitalize;
+      color: #ffffff;
+      font-size: 24px;
+      background-color: transparent; }
+      .header_style .main-menu .classy-navbar .classynav ul li a:hover, .header_style .main-menu .classy-navbar .classynav ul li a:focus {
+        color: #363636;
+        background-color: #ffffff; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .header_style .main-menu .classy-navbar .classynav ul li a {
+          font-size: 14px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .header_style .main-menu .classy-navbar .classynav ul li a {
+          background-color: #363636; } }
+      @media only screen and (max-width: 767px) {
+        .header_style .main-menu .classy-navbar .classynav ul li a {
+          background-color: #363636; } }
+    .header_style .main-menu .classy-navbar .classynav ul li.active a {
+      color: #363636;
+      background-color: #ffffff;
+    }
+    .header_style .main-menu .classy-navbar .classynav ul li.megamenu-item > a::after{
+      color: #ffffff;
+      background-color: #363636;
+    }
+    .header_style .main-menu .classy-navbar .classynav ul li.has-down > a::after {
+      color: #ffffff;
+      background-color: #363636;
+    }
+    .header_style .main-menu .classy-navbar .classynav ul li ul li a {
+      color: #363636; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .header_style .main-menu .classy-navbar .classynav ul li ul li a {
+          padding: 0 20px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .header_style .main-menu .classy-navbar .classynav ul li ul li a {
+          color: #ffffff; } }
+      @media only screen and (max-width: 767px) {
+        .header_style .main-menu .classy-navbar .classynav ul li ul li a {
+          color: #ffffff; } }
+    .header_style .main-menu .classy-navbar .menu-btn {
+      margin-left: 20px; }
+      @media only screen and (min-width: 992px) and (max-width: 1199px) {
+        .header_style .main-menu .classy-navbar .menu-btn {
+          margin-left: 10px; } }
+      @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .header_style .main-menu .classy-navbar .menu-btn {
+          margin-left: 10px;
+          border: 2px solid #ffffff;
+          margin-top: 10px;
+          display: inline-block; } }
+      @media only screen and (max-width: 767px) {
+        .header_style .main-menu .classy-navbar .menu-btn {
+          margin-left: 10px;
+          border: 2px solid #ffffff;
+          margin-top: 10px;
+          display: inline-block; } }
+      .header_style .main-menu .classy-navbar .menu-btn a {
+        color: #ffffff;
+        font-size: 16px; }
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .breakpoint-on .classy-navbar .classy-menu {
+    background-color: rgba(0, 0, 0, 0.8); } }
+@media only screen and (max-width: 767px) {
+  .breakpoint-on .classy-navbar .classy-menu {
+    background-color: rgba(0, 0, 0, 0.8); } }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .classynav ul li .megamenu .single-mega.cn-col-4 {
+    padding: 0; } }
+@media only screen and (max-width: 767px) {
+  .classynav ul li .megamenu .single-mega.cn-col-4 {
+    padding: 0; } }
